@@ -1,8 +1,30 @@
 aid: tt-labs
 name: TT Labs
-description: TT Labs is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TT Labs is the company behind VideoPixie, a freelance marketplace that
+  connects clients with professional video creators — videographers, video
+  editors, directors, animators, and motion designers — available for hire.
+  Clients post a project brief in about five minutes and receive competitive
+  bids from vetted creators, then choose a creator based on portfolio and
+  price. VideoPixie serves crowdfunding and Kickstarter videos, product and
+  explainer videos, game trailers, wedding videography, screencasts, and full
+  production campaigns, with example budgets ranging from a few hundred to
+  tens of thousands of dollars. Backed by 500 Global, VideoPixie is a
+  customer-facing marketplace web application (AngularJS) and does not publish
+  a public developer API, developer portal, or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/tt-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://s3.amazonaws.com/our.s3.videopixie.com/og_tags/og_fb_home.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Video Production
+- Marketplace
+- Freelance
+- Media
+- Creative Services
+- Animation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://videopixie.com
+- type: Pricing
+  url: https://videopixie.com/pricing
+- type: Login
+  url: https://videopixie.com/sign-in
+- type: PrivacyPolicy
+  url: https://videopixie.com/st/privacy.html
+- type: Support
+  url: https://videopixie.com/faq
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
